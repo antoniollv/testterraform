@@ -1,0 +1,20 @@
+instances:
+  "instanciaHolamundo":
+    ami: "ami-0ef9e689241f0bb6e"  # AMI de Amazon Linux 2023 (64 bits (x86)
+    instance_type: "t2.nano"
+    tags: {
+      project: "apertura",
+      description: "Instancia de apertura"
+    }
+  "instanciaAdiosmundo":
+    ami: "ami-0ef9e689241f0bb6e"  # AMI de Amazon Linux 2023 (64 bits (x86)
+    instance_type: "t2.nano"
+    tags: {
+      project: "cierre",
+      description: "Instancia de cierre"
+    }
+tags: {
+    environment: "test",
+    author: "antonio.lledo.valero",
+    date: "202403"
+}
